@@ -10,3 +10,11 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+# Inicializamos el repositorio local Git
+    git init
+    # Agregamos todo (archivos y directorios) al repositorio
+    git add .
+    # Hacemos un commit al repositorio
+    git commit -m "Initial commit"
+    # Muestra el log (un historial)
+    git log
